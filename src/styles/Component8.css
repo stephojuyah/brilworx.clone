@@ -72,3 +72,58 @@ ul {
     font-size: 37px;
     margin: 0px 0px;
 }
+
+@media (max-width : 600px) {
+    .footer {
+        width: 218%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .parent701 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .parent702 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .parent703 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .parent704 {
+        width: 100%;
+    }
+
+    .img777 {
+        height: 110px;
+    }
+
+    .img701 {
+        width: 100%;
+        height: 150px;
+        margin:  60px auto;
+    }
+
+    ul {
+        list-style: none;
+        line-height: 2;
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    .child777 {
+        line-height: 1.3;
+        margin-top: 3.5px;
+        margin-bottom: 3.5rem;
+    }
+    
+    .big777 {
+        font-size: 45px;
+        margin: 0px 0px;
+    }
+}

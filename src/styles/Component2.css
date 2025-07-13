@@ -18,6 +18,7 @@
     color: white;
     padding: 5px;
     width: 198px;
+    
 }
 
 .big {
@@ -82,4 +83,78 @@
 
 .middle {
     color: #2d2c4c;
+}
+
+.child1 {
+    height: 550px;
+}
+
+@media (max-width : 600px) {
+    .part1 {
+        width: 232%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        height: 1750px;
+    }
+
+    .child1 {
+        text-align: center;
+    }
+
+    .welcome {
+        height: 50px;
+        width: 500px;
+        font-size: 37px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .big {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 60px;
+        padding-left: 0px;
+        padding-right: 40px;
+        font-size: 110px;
+    }
+
+    .smile {
+        width: 100%;
+        padding-top: 60px;
+        
+    }
+
+    .small {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .container2 {
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .baby {
+        width: 100%;
+    }
+
+    .down {
+        height: 160px;
+        width: 160px;
+        padding-top: 60px;
+    }
+
+    .bottom {
+        width: 300px;
+        height: 80px;
+        font-size: 28px;
+    }
 }

@@ -17,19 +17,19 @@ const Component4 = () => {
             <div className="aside301">
                 <div className="baby301">
                     <img src={mobile} alt="" className="img301"/>
-                    <p className="text301">Mobile Ready</p>
+                    <p className="text301">MOBILE READY</p>
                 </div>
                 <div className="baby301">
                     <img src={tab} alt="" className="img301"/>
-                    <p className="text301">100% Responsive</p>
+                    <p className="text301">100% RESPONSIVE</p>
                 </div>
                 <div className="baby301">
                     <img src={pc} alt="" className="img301"/>
-                    <p className="text301">Retina Ready</p>
+                    <p className="text301">RETINA READY</p>
                 </div>
                 <div className="baby301">
                     <img src={desktop} alt="" className="img301"/>
-                    <p className="text301">Flexible Design</p>
+                    <p className="text301">FLEXIBLE DESIGN</p>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Component3 = () => {
             </div>
             <div className="aside201">
                 <div className="process nay">OUR PROCESS</div>
-                <p className="big201">THE WAY</p>
+                <p className="big201 freda">THE WAY</p>
                 <p className="small201">Make the web beautiful.</p>
                 <div className="child201">
                     <div className="baby201">

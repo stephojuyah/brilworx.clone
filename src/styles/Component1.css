@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
@@ -34,4 +35,17 @@ body {
 
 .link:hover {
     color: #20a5e6;
+}
+
+@media (max-width : 600px) {
+    .header {
+        height : 100px;
+        padding: 20px 40px;
+        width: 232%;  
+    }
+
+    .nav {
+        display: none;
+    }
+
 }

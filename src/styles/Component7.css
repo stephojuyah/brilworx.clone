@@ -1,4 +1,4 @@
-.contain201 {
+.containnn201 {
     background-color: white;
     padding-left: 70px;
     padding-right: 70px;
@@ -13,7 +13,7 @@
     width: 20%;
 }
 
-.aside201 {
+.asideee201 {
     width: 65%;
 }
 
@@ -28,7 +28,7 @@
     width: 178px;
 }
 
-.big201 {
+.biggg201 {
     font-size: 95px;
     text-align: left;
     width: 70%;
@@ -38,7 +38,7 @@
 }
 
 
-.small201 {
+.smallll201 {
     font-size: 27px;
     width: 100%;
     margin-top: 0;
@@ -61,4 +61,11 @@
     opacity: 0.8;
     transition: all 0.2s ease;
 
+}
+
+@media (max-screen : 600px) {
+    .containnn201 {
+        flex-direction: column;
+        width: 216%;
+    }
 }

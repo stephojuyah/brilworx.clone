@@ -65,3 +65,59 @@
 .baby201 {
     width: 30%;
 }
+
+@media (max-width : 600px) {
+    .contain201 {
+        flex-direction: column;
+        width: 216%;
+    }
+
+    .logo201 {
+        margin: auto;
+    }
+
+    .img201 {
+        width: 220px;
+    }
+
+    .child201 {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .aside201 {
+        width: 100%;
+        margin: auto;
+        padding-top: 60px;
+    }
+
+    .process {
+        height: 40px;
+        width: 290px;
+        font-size: 37px;
+        padding: 10px 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+
+    .baby201 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .big201 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 110px;
+        padding-top: 60px;
+    }
+
+    .small201 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+}
