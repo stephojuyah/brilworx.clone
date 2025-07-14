@@ -1,4 +1,4 @@
-.contain2011 {
+.contain0 {
     background-color: white;
     padding-left: 70px;
     padding-right: 70px;
@@ -9,26 +9,26 @@
 
 }
 
-.logoo201 {
+.logo0 {
     width: 20%;
 }
 
-.asidee201 {
+.aside0 {
     width: 65%;
 }
 
-.img201 {
+.img0 {
     height: 280px;
 }
 
-.proces {
+.proces0 {
     background-color: #2d2c4c;
     color: white;
     padding: 5px;
     width: 178px;
 }
 
-.bigg201 {
+.big0 {
     font-size: 95px;
     text-align: left;
     width: 70%;
@@ -38,7 +38,7 @@
 }
 
 
-.smalll201 {
+.small0 {
     font-size: 27px;
     width: 100%;
     margin-top: 0;
@@ -47,46 +47,85 @@
 
 }
 
-.childd201 {
+.child0 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 30px;
 }
 
-.bigg202 {
+.big0 {
     color: #20a5e6;
     margin-top: 30px;
+    font-size: 16px;
 }
 
-.smalll202 {
+.small0 {
     color: #2d2c4c;
+    font-size: 16px;
 }
 
-.babyy201 {
+.baby0 {
     width: 30%;
 }
 
-@media (max-width : 600px) {
-    contain2011 {
-        width: 216%;
+@media (max-width : 1000px) {
+    .contain0 {
+        width: 218%;
         flex-direction: column;
-        
     }
 
-    .logoo201 {
-        width: 100%;
+    .img0 {
+        width: 220px;
+        margin-bottom: 60px;
+    }
+
+    .logo0 {
         margin: auto;
+        width: 220px;
     }
 
-    .asidee201 {
-        width: 100%;
-        flex-wrap: nowrap;
-        flex-direction: ;
-    }
-
-    .proces {
+    .proces0 {
         margin: auto;
-        border: 1px solid red;
+        text-align: center;
+        height: 40px;
+        width: 440px;
+        padding: 10px;
+        font-size: 37px;
+        margin-bottom: 60px;
     }
+
+    .aside0 {
+        width: 100%;
+    }
+    
+    .child0 {
+        flex-direction: column;
+        flex-wrap: nowrap; 
+    }
+
+    .baby0 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .small0 {
+        font-size: 40px;
+    }
+
+    .big0 {
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .big01 {
+        font-size: 95px;
+    }
+
+    .small01 {
+        text-align: center;
+    }
+
+    
 }

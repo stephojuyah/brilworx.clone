@@ -37,7 +37,7 @@ body {
     color: #20a5e6;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 1000px) {
     .header {
         height : 100px;
         padding: 20px 40px;

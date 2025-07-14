@@ -45,7 +45,7 @@
     height: 40%;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 1000px) {
     .contain301 {
         width: 216%;
         padding-bottom: 100px;

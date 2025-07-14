@@ -89,7 +89,7 @@
     height: 550px;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 1000px) {
     .part1 {
         width: 232%;
         padding-left: 40px;

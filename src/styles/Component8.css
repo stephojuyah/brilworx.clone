@@ -73,7 +73,7 @@ ul {
     margin: 0px 0px;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 1000px) {
     .footer {
         width: 218%;
         font-size: 40px;
