@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
@@ -37,11 +38,11 @@ body {
     color: #20a5e6;
 }
 
-@media (max-width : 1000px) {
+@media (max-width : 760px) {
     .header {
-        height : 100px;
+        /* height : 100px;
         padding: 20px 40px;
-        width: 232%;  
+        width: 100%;   */
     }
 
     .nav {
