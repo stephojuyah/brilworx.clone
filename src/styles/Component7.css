@@ -63,20 +63,21 @@
 
 }
 
-@media (max-width : 1000px) {
+@media (max-width : 760px) {
     .contain901 {
         flex-direction: column;
-        width: 218%;
+        padding: 40px 30px 40px 30px;
     }
     
     .proces901 {
         margin: auto;
         text-align: center;
-        height: 40px;
-        width: 440px;
-        padding: 10px;
-        font-size: 37px;
-        margin-bottom: 60px;
+        height: 13px;
+        width: 180px;
+        padding-top: 4px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .aside901 {
@@ -86,18 +87,20 @@
 
     .big901 {
         width: 100%;
+        font-size: 40px;
         text-align: center;
     }
 
     .small901 {
-        font-size: 40px;
+        font-size: 17px;
     }
 
     .btn601 {
-        width: 700px;
-        height: 130px;
-        border-radius: 20px;
-        font-size: 37px;
+        width: 310px;
+        height: 60px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-top: 20px;
     }
 
     .logo901 {
@@ -107,9 +110,7 @@
 
     .img901 {
         width: 220px;
-        margin-bottom: 60px;
+        height: 90px;
+        margin-bottom: 30px;
     }
-
-
-
 }

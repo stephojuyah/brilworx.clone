@@ -1,10 +1,10 @@
-import "../styles/Component2.css"
-import smilingman from '../assets/smilingman.png'
-import colab from '../assets/colab.svg'
-import blog from '../assets/blog.svg'
-import contact from '../assets/contact.svg'
+import "../../styles/Component2.css"
+import smilingman from '../../assets/smilingman.png'
+import colab from '../../assets/colab.svg'
+import blog from '../../assets/blog.svg'
+import contact from '../../assets/contact.svg'
 
-const Component2 = () => {
+const HomepageComponent2 = () => {
 
     return(
         <>
@@ -17,9 +17,9 @@ const Component2 = () => {
                 <div className="child2">
                     <img src={smilingman} alt="smiling-man" className="smile"/>
                 </div>
-            </div>
-            <p className="small">Creative website design for start-ups, sole traders & settled businesses.</p>
-            <div className="container2">
+            </div><br /><br /><br /><br /><br /><br />
+            <p className="smallcom1">Creative website design for start-ups, sole traders & settled businesses.</p>
+            <div className="container20">
                 <div className="baby">
                     <img src={colab} alt="" className="down"/>
                     <p className="top">COLLABORATE</p>
@@ -46,4 +46,4 @@ const Component2 = () => {
     )
 }
 
-export default Component2
+export default HomepageComponent2

@@ -30,7 +30,7 @@
     color: #2d2c4c;
 }
 
-.small {
+.smallcom1 {
     font-size: 27px;
     width: 60%;
     margin-top: 0;
@@ -43,7 +43,7 @@
     height: 100%;
 }
 
-.container2 {
+.container20 {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
@@ -85,31 +85,34 @@
     color: #2d2c4c;
 }
 
-.child1 {
+/* .child1 {
     height: 550px;
-}
+} */
 
-@media (max-width : 1000px) {
+@media (max-width : 760px) {
     .part1 {
-        width: 232%;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        
     }
 
     .container1 {
         flex-direction: column;
-        height: 1750px;
+        /* height: 570px; */
     }
 
     .child1 {
         text-align: center;
+        
     }
 
     .welcome {
-        height: 50px;
-        width: 500px;
-        font-size: 37px;
-        padding: 10px;
+        height: 13px;
+        width: 187px;
+        font-size: 15px;
+        padding: 6px;
         margin: 0 auto;
     }
 
@@ -117,44 +120,49 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        padding-top: 60px;
-        padding-left: 0px;
-        padding-right: 40px;
-        font-size: 110px;
+        padding-top: 25px;
+        font-size: 40px;
     }
 
     .smile {
         width: 100%;
-        padding-top: 60px;
-        
+        height: 100%;
+        padding-top: 30px;
+        /* border: 1px solid red; */
     }
 
-    .small {
-        font-size: 40px;
+    .smallcom1 {
+        font-size: 16px;
         width: 100%;
         text-align: center;
+        padding-top: 35px;
+        margin-top: 90px;
+        /* border: 1px solid blue; */
 
     }
 
-    .container2 {
+    .container20 {
         flex-direction: column;
         text-align: center;
-        font-size: 40px;
+        font-size: 16px;
+        margin-top: 0;
     }
 
     .baby {
         width: 100%;
+        font-size: 16px;
+        
     }
 
     .down {
-        height: 160px;
-        width: 160px;
-        padding-top: 60px;
+        height: 70px;
+        width: 70px;
+        padding-top: 30px;
     }
 
     .bottom {
-        width: 300px;
-        height: 80px;
-        font-size: 28px;
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
     }
 }

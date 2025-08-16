@@ -66,10 +66,13 @@
     width: 30%;
 }
 
-@media (max-width : 1000px) {
+@media (max-width : 760px) {
     .contain201 {
         flex-direction: column;
-        width: 216%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .logo201 {
@@ -79,25 +82,28 @@
 
     .img201 {
         width: 220px;
+        height: 90px;
     }
 
     .child201 {
         flex-direction: column;
         text-align: center;
+        padding-top: 0;
         
     }
 
     .aside201 {
         width: 100%;
         margin: auto;
-        padding-top: 60px;
+        padding-top: 30px;
     }
 
     .process {
-        height: 40px;
-        width: 290px;
-        font-size: 37px;
-        padding: 10px 10px;
+        height: 13px;
+        width: 120px;
+        font-size: 16px;
+        padding-top: 4px;
+        padding-bottom: 8px;
         margin: 0 auto;
         text-align: center;
     }
@@ -105,20 +111,20 @@
 
     .baby201 {
         width: 100%;
-        font-size: 40px;
+        font-size: 17px;
     }
 
     .big201 {
         width: 100%;
-        margin: 0 auto;
+        margin-top: 0px;
         text-align: center;
-        font-size: 110px;
-        padding-top: 60px;
+        font-size: 40px;
+        padding-top: 30px;
     }
 
     .small201 {
         width: 100%;
         text-align: center;
-        font-size: 40px;
+        font-size: 16px;
     }
 }

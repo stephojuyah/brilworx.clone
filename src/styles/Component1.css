@@ -5,6 +5,10 @@ body {
     box-sizing: border-box;
 }
 
+.spann {
+    display: none;
+}
+
 .header {
     position: sticky;
     top: 0;
@@ -40,13 +44,23 @@ body {
 
 @media (max-width : 760px) {
     .header {
-        /* height : 100px;
+        height : 20px;
         padding: 20px 40px;
-        width: 100%;   */
+        padding: 20px 20px; 
     }
 
     .nav {
         display: none;
+    }
+
+    .spann {
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .logo {
+        height: 25px;
     }
 
 }

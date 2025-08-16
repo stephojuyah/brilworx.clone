@@ -8,7 +8,7 @@ import link from '../assets/link.svg'
 import yt from '../assets/yt.svg'
 
 
-const Component8 = () => {
+const Footer = () => {
 
     return(
         <>
@@ -58,4 +58,4 @@ const Component8 = () => {
     )
 }
 
-export default Component8
+export default Footer

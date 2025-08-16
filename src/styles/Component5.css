@@ -54,7 +54,7 @@
     padding-top: 30px;
 }
 
-.big0 {
+.big01 {
     color: #20a5e6;
     margin-top: 30px;
     font-size: 16px;
@@ -69,15 +69,19 @@
     width: 30%;
 }
 
-@media (max-width : 1000px) {
+@media (max-width : 760px) {
     .contain0 {
-        width: 218%;
         flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
 
     .img0 {
         width: 220px;
-        margin-bottom: 60px;
+        height: 90px;
+        margin-bottom: 30px;
     }
 
     .logo0 {
@@ -88,11 +92,12 @@
     .proces0 {
         margin: auto;
         text-align: center;
-        height: 40px;
-        width: 440px;
-        padding: 10px;
-        font-size: 37px;
-        margin-bottom: 60px;
+        height: 13px;
+        width: 180px;
+        padding-top: 4px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .aside0 {
@@ -102,6 +107,7 @@
     .child0 {
         flex-direction: column;
         flex-wrap: nowrap; 
+        padding-top: 0;
     }
 
     .baby0 {
@@ -110,17 +116,18 @@
     }
 
     .small0 {
-        font-size: 40px;
+        font-size: 17px;
     }
 
-    .big0 {
-        font-size: 40px;
+    .big01 {
+        font-size: 17px;
         text-align: center;
         width: 100%;
     }
 
-    .big01 {
-        font-size: 95px;
+    .big0 {
+        font-size: 40px;
+        color: #2d2c4c;
     }
 
     .small01 {
